@@ -38,6 +38,7 @@ npm test
 * standard
 * yarn.lock
 * ES2015
+* Sass
 * debug
 * express server
 * socket.io
