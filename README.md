@@ -4,6 +4,7 @@
 
 ## Build Setup
 
+### Develop
 ``` bash
 # install dependencies
 yarn
@@ -11,9 +12,18 @@ yarn
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
+# develop server
+npm run dev-server
+```
 
+### Deploy
+``` bash
+# depoly with express, socket.io
+npm start
+```
+
+### Test
+``` bash
 # run unit tests
 npm run unit
 
@@ -27,5 +37,9 @@ npm test
 ## Features
 * standard
 * yarn.lock
+* ES2015
+* debug
+* express server
+* socket.io
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
